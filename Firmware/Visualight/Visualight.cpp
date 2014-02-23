@@ -8,7 +8,7 @@
 /* SET TO 1 TO DEBUG OVER SERIAL MONITOR @115200 baud
  if set to 1, board will wait for serial  
  monitor to be opened before executing any code. */
-#define DEBUG 0 //SET TO 0 for normal operation
+#define DEBUG 1 //SET TO 0 for normal operation
 
 /* define Serial prints based on DEBUG declaration */
 #if DEBUG
